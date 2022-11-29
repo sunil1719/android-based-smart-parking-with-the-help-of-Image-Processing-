@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Wallet"
+        android:id="@+id/Wallet"
+        android:icon="@drawable/ic_baseline_feedback_24"/>
+    <item android:title="Latest_Booking_Status"
+        android:id="@+id/Current_Booking_Status"
+        android:icon="@drawable/current_status"/>
+    <item android:title="History"
+        android:id="@+id/History"
+        android:icon="@drawable/ic_baseline_history_24"/>
+    <item android:title="Feedback"
+        android:id="@+id/Feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"/>
+    <item android:title="Userdata_stored_in_device_memory"
+        android:id="@+id/Userdata_stored_in_device_memory"
+        android:icon="@drawable/user_data"/>
+
+
+    <!-- settings and support ko hata diya
+    <item android:title="Setting"
+        android:id="@+id/Setting"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    -->
+    <!--
+    <item android:title="Support"
+        android:id="@+id/Support"
+        android:icon="@drawable/support"/>
+    -->
+    <item android:title="About"
+    android:id="@+id/About"
+    android:icon="@drawable/ic_baseline_info_24"/>
+    <item android:title="Logout"
+        android:id="@+id/Logout"
+        android:icon="@drawable/logout3"/>
+
+</menu>

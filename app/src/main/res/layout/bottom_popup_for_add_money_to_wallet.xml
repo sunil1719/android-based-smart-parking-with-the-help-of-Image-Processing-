@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_gravity="center_horizontal"
+android:gravity="center_horizontal"
+android:layout_height="match_parent"
+android:background="@drawable/bottom_popup__bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="Add Money to Wallet"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/enter_vehicle_number11"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="20dp"
+        app:hintTextColor="@color/dgreen"
+        app:boxStrokeColor="@color/dgreen"
+        app:helperTextTextColor="@color/black"
+        app:prefixText="₹ "
+        app:prefixTextColor="@color/green">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/entered_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="4"
+            android:digits="0123456789"
+            android:hint="Enter Amount"
+            android:inputType="textCapCharacters" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/dgreen"
+        android:onClick="go_to_razorpay_to_add_money_to_wallet"
+        android:text="Continue" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can Make Your parking payment more Fast and Smoother with ParkSure Wallet"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="13dp"/>
+</LinearLayout>
+
+</LinearLayout>

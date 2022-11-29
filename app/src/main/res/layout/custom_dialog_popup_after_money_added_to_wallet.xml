@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@android:color/white"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+android:layout_gravity="center_horizontal"
+android:layout_marginHorizontal="20dp"
+android:paddingVertical="5dp">
+
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/money_added_to_wallet1" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:text="Congratulations!"
+    android:textColor="@android:color/black"
+    android:textSize="20dp"
+    android:layout_marginVertical="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ "
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/added_amount_to_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount_added "
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView328"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Successfully Added To ParkSure Wallet"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dgreen"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet Balance: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ "
+            android:textSize="20dp"
+            android:textColor="@color/dgreen"/>
+
+        <TextView
+            android:id="@+id/updated_wallet_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="updated_wallet_balance"
+            android:textColor="@color/dgreen"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <View
+    android:id="@+id/divider"
+    android:layout_width="1dp"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+<Button
+    android:id="@+id/button119"
+    android:layout_width="250dp"
+    android:layout_height="59dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:backgroundTint="@color/dgreen"
+    android:onClick="close_wallet_activity_and_this_pupup"
+    android:text="Continue"
+    app:cornerRadius="8dp" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995062295546",
+    "project_id": "park-sure",
+    "storage_bucket": "park-sure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995062295546:android:e561a68f571df3f7b49243",
+        "android_client_info": {
+          "package_name": "com.example.parksure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995062295546-recg14q3pjbqmgmmq7pv7guvr3k6mpl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHKRw4k4iyBhYLPz958w4H2uCdeTzyr0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995062295546-recg14q3pjbqmgmmq7pv7guvr3k6mpl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
